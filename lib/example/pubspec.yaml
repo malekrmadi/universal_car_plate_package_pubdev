@@ -32,6 +32,8 @@ dependencies:
     sdk: flutter
   universal_car_plates:
     path: ../../
+  flutter_test:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:

@@ -1,0 +1,26 @@
+name: universal_car_plates
+description: >-
+  A reusable Flutter widget that displays a Tunisian license plate
+  with correct layout, Arabic font, and customizable numbers.
+
+version: 1.0.0
+homepage: https://github.com/ton-github/universal_car_plates # à modifier
+repository: https://github.com/ton-github/universal_car_plates # à modifier
+issue_tracker: https://github.com/ton-github/universal_car_plates/issues # à modifier
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+
+  assets:
+    - assets/fonts/
